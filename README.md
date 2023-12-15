@@ -33,6 +33,24 @@ Components Required:
 
 
 
+## Connections
+
+1. LCD 
+``` 
+1. LCD RS pin to digital pin 12
+2. LCD Enable pin to digital pin 11
+3. LCD D4 pin to digital pin 5
+4. LCD D5 pin to digital pin 4
+5. LCD D6 pin to digital pin 3
+6. LCD D7 pin to digital pin 2
+7. LCD R/W pin to GND
+8. LCD VSS pin to GND
+9. LCD VCC pin to 5V
+10.LCD LED+ to 5V through a 220 ohm resistor LCD LED- to GND 
+```
+2. Relay datapin on D6
+3. Buzzer and Red led parallel on D7
+4. DHT11 datapin on A0
 ## Support
 
 For support, email harshprakash06@outlook.com richardkonsam@gmail.com.
